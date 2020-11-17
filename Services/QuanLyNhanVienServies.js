@@ -30,9 +30,9 @@ var QuanLyNhanVienSerVices = function(){
         })
         return promise;
     }
-    this.xoaNhanVien = function(maNV){
+    this.xoaNhanVien = function(maNhanVien){
         var promise = axios({
-            url: 'http://svcy.myclass.vn/api/QuanLyNhanVienApi/XoaNhanVien?maSinhVien=' + maNV,
+            url: 'http://svcy.myclass.vn/api/QuanLyNhanVienApi/XoaNhanVien?maSinhVien=' + maNhanVien,
             method: 'DELETE',
         })
         return promise;
