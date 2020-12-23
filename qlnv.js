@@ -36,6 +36,7 @@ getSection('#btnXacNhan').onclick = function () {
 
     if (!valid) {
         return;
+        
     }
     mangNhanVien.push(nv);
     renderTableNhanVien(mangNhanVien);
